@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+}
+article{
+    display: flex;
+}
+.barre_lateral{
+    background-color: rgb(70, 70, 70);
+    width: 20vw;
+    color: white;
+    padding-left: 30px;
+}
+.barre_lateral a{
+    color: white;
+}
+.présentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+    background-color: thistle;
+    width: 80vw;
+}
+table{
+    border: 1px solid #333;
+}
+table thead{
+    background-color: black;
+    color: white;
+}
+#tr{
+    font-weight: 900;
+    width: 150px;
+}
+table tfoot tr td a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.nav_interne{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
